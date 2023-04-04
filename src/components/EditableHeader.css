@@ -1,0 +1,46 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 2rem;
+  padding-block: 1rem;
+}
+
+.header {
+  display: block;
+  width: fit-content;
+  padding: 0.2rem;
+  border: 0px;
+}
+
+.header-lg {
+  font-size: 3rem;
+}
+
+.header-md {
+  font-size: 1.75rem;
+}
+
+.header-sm {
+  font-size: 1.25rem;
+}
+
+.header-primary {
+  color: rgba(var(--secondary));
+  background-color: rgba(var(--primary));
+}
+
+.header-secondary {
+  color: rgba(var(--primary));
+  background-color: rgba(var(--secondary));
+}
+
+.header-accent {
+  color: rgba(var(--primary));
+  background-color: rgba(var(--accent));
+}
+
+.header-none {
+  color: rgba(var(--secondary-low));
+  background-color: transparent;
+}

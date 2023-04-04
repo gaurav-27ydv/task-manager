@@ -1,0 +1,48 @@
+.btn {
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primary {
+  color: rgba(var(--primary));
+  background-color: rgba(var(--secondary));
+}
+
+.btn-secondary {
+  color: rgba(var(--secondary));
+  background-color: rgba(var(--primary));
+}
+
+.btn-accent {
+  color: rgba(var(--accent));
+  background-color: rgba(var(--secondary));
+}
+
+.btn-none {
+  color: rgba(var(--primary));
+  background-color: transparent;
+}
+
+.btn-lg {
+  height: 2.5rem;
+  width: 2.5rem;
+  font-size: 1.5rem;
+}
+
+.btn-md {
+  height: 1.25rem;
+  width: 1.25rem;
+  font-size: 1rem;
+}
+
+.btn-sm {
+  height: 1rem;
+  width: 1rem;
+  font-size: 0.8rem;
+}
+
+.circle {
+  border-radius: 50%;
+}

@@ -1,0 +1,108 @@
+.task-container {
+  position: relative;
+  border-radius: 1rem;
+  padding-inline: 0.8rem;
+  padding-block: 1rem;
+}
+
+.task-container.open-content {
+  padding-block: 1.5rem;
+  padding-inline: 2rem;
+}
+
+.task-container:hover {
+  background-color: rgba(var(--primary-low), 0.05);
+}
+
+.open-icon {
+  position: absolute;
+  top: 1.75rem;
+  right: 3.15rem;
+}
+
+.open-icon.open-content {
+  top: 0.5rem;
+}
+
+.top-content {
+  align-items: normal;
+}
+
+.loader.open-content {
+  position: absolute;
+  top: 1.65rem;
+  right: 5rem;
+  top: 0.5rem;
+}
+
+label {
+  display: block;
+}
+
+.input-form {
+  line-height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.input-form.open-content {
+  gap: 1rem;
+}
+
+input.task-input:disabled {
+  border: 0;
+  font-size: 1.2rem;
+  padding-inline-start: 1.5rem;
+}
+
+input.task-input {
+  border: 0.1rem solid rgba(var(--primary));
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  display: block;
+}
+
+textarea.task-input:disabled {
+  border: 0;
+  padding-inline-start: 0.5rem;
+}
+
+textarea.task-input {
+  min-height: 3rem;
+  border: 0.1rem solid rgba(var(--primary));
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  resize: none;
+  font-size: 1.2rem;
+}
+
+.drop-down {
+  flex: 0 0 40%;
+  border: 0;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  color: rgba(var(--primary));
+  background-color: transparent;
+  border-radius: 0.5rem;
+  border: 0.1rem solid rgba(var(--primary));
+}
+
+.date-picker {
+  flex: 0 0 40%;
+  border: 0;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  color: rgba(var(--primary));
+  background-color: transparent;
+  border-radius: 0.5rem;
+  border: 0.1rem solid rgba(var(--primary));
+}
+
+.title {
+  border: 0px;
+  background-color: transparent;
+  color: rgba(var(--primary));
+}
